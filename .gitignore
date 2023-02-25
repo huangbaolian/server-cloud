@@ -1,0 +1,11 @@
+/server-admin/admin-api/target/
+/server-admin/admin-boot/target/
+/server-auth/target/
+/server-common/common-base/target/
+/server-common/common-mybatis-plus/target/
+/server-common/common-redis/target/
+/server-common/common-web/target/
+/server-demo/demo-seata/demo-account/target/
+/server-demo/demo-seata/demo-order/target/
+/server-demo/demo-seata/demo-storage/target/
+/server-gateway/target/

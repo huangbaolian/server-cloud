@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="server-gateway" />
+        <module name="common-mybatis-plus" />
+        <module name="demo-storage" />
+        <module name="admin-api" />
+        <module name="common-web" />
+        <module name="admin-boot" />
+        <module name="demo-account" />
+        <module name="demo-order" />
+        <module name="common-redis" />
+        <module name="server-auth" />
+        <module name="common-base" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-api" options="-parameters" />
+      <module name="admin-boot" options="-parameters" />
+      <module name="common-base" options="-parameters" />
+      <module name="common-mybatis-plus" options="-parameters" />
+      <module name="common-redis" options="-parameters" />
+      <module name="common-web" options="-parameters" />
+      <module name="demo-account" options="-parameters" />
+      <module name="demo-order" options="-parameters" />
+      <module name="demo-seata" options="-parameters" />
+      <module name="demo-storage" options="-parameters" />
+      <module name="server-admin" options="-parameters" />
+      <module name="server-auth" options="-parameters" />
+      <module name="server-common" options="-parameters" />
+      <module name="server-demo" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
